@@ -1,6 +1,15 @@
 a {
   text-decoration: none;
+  color: #87302a;
+}
+
+.footer a {
+  text-decoration: none;
   color: #ded0ba;
+}
+
+h2 {
+  text-align: center;
 }
 
 p {
@@ -51,6 +60,14 @@ p {
   padding: 30px 20px;
 }
 
-.michelangelo {
-  padding: 12px;
+.michelangeloimg {
+  float: left;
+  padding: 30px 20px;
+}
+
+table, th, td {
+  font-family: Verdana;
+  font-size: 15px;
+  border: 2px solid #c4c4c4;
+  border-collapse: collapse;
 }
