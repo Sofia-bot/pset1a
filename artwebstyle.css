@@ -2,6 +2,10 @@
   margin: 5;
 }
 
+body {
+  overflow-y: auto;
+}
+
 a {
   text-decoration: none;
   color: #87302a;
@@ -59,19 +63,29 @@ header a:hover {
   color: #501e1a;
 }
 
-.homepageimg {
-  float: left;
+img {
   padding: 30px 20px;
 }
 
-.michelangeloimg {
+.homepageimg {
   float: left;
   padding: 30px 20px;
 }
 
 table, th, td {
   font-family: Verdana;
-  font-size: 15px;
+  font-size: 20px;
+  padding: 10px;
   border: 2px solid #c4c4c4;
   border-collapse: collapse;
+}
+
+th {
+  color: #ded0ba;
+  background-color: #87302a;
+}
+
+.info {
+  position: relative;
+  top: 150px;
 }
