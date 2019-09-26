@@ -1,22 +1,23 @@
-* {
-  margin: 5;
-}
-
 body {
-  overflow-y: auto;
+  scroll-behavior: auto;
+  overflow-y: scroll;
 }
 
-a {
-  text-decoration: none;
-  color: #87302a;
+img {
+  padding: 30px 20px;
+  display: block;
+  margin: 20px;
 }
 
-.footer a {
-  text-decoration: none;
-  color: #ded0ba;
+h1 {
+  text-align: center;
 }
 
 h2 {
+  text-align: center;
+}
+
+h3 {
   text-align: center;
 }
 
@@ -25,15 +26,30 @@ p {
   padding-top: 30px:
 }
 
-.footer {
-  position: fixed;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  background-color: #87302a;
-  padding: 10px;
+a {
+  text-decoration: none;
+  color: #87302a;
+}
+
+.words {
   text-align: center;
-  color: #ded0ba;
+}
+
+.info {
+  position: relative;
+  top: 150px;
+}
+
+ol {
+  font-size: 20px;
+  display: table;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #501e1a;
 }
 
 header {
@@ -58,21 +74,24 @@ header a.current {
   background-color: #ded0ba;
 }
 
-header a:hover {
-  font-weight: bold;
-  color: #501e1a;
+.footer a {
+  text-decoration: none;
+  color: #ded0ba;
 }
 
-img {
-  padding: 30px 20px;
+.footer {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: #87302a;
+  padding: 10px;
+  text-align: center;
+  color: #ded0ba;
 }
 
-.homepageimg {
-  float: left;
-  padding: 30px 20px;
-}
-
-table, th, td {
+table.timeline, table.timeline th, table.timeline td {
+  position: relative;
+  bottom; 150px;
   font-family: Verdana;
   font-size: 20px;
   padding: 10px;
@@ -85,7 +104,6 @@ th {
   background-color: #87302a;
 }
 
-.info {
-  position: relative;
-  top: 150px;
+table.bio {
+  border: 5px solid transparent;
 }
