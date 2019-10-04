@@ -9,7 +9,6 @@ body {
 
 img {
   padding: 30px 20px;
-  display: block;
   margin: 20px;
 }
 
@@ -69,7 +68,7 @@ header a {
 
 header a.current {
   font-weight: bold;
-  color: #87302a;
+  color: #87302a !important;
   background-color: #ded0ba;
 }
 
@@ -105,8 +104,4 @@ th {
 
 table[class="bio"] {
   border: 5px solid transparent;
-}
-
-img.michimg {
-  width: 150px;
 }
