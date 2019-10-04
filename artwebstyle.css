@@ -84,7 +84,7 @@ header a.current {
   background-color: #87302a;
   padding: 10px;
   text-align: center;
-  color: #ded0ba;
+  color: black;
 }
 
 .timeline, .timeline th, .timeline td {
