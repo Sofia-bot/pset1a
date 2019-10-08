@@ -35,15 +35,6 @@ a {
   color: #87302a;
 }
 
-#words {
-  text-align: center;
-}
-
-.info {
-  position: relative;
-  top: 150px;
-}
-
 ol {
   font-size: 20px;
   display: table;
@@ -94,6 +85,25 @@ a:hover {
   color: #ded0ba;
 }
 
+#starrynight {
+  width: 400px;
+}
+
+#words {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.info {
+  position: relative;
+  top: 150px;
+}
+
+th {
+  color: #ded0ba;
+  background-color: #87302a;
+}
+
 #timeline, #timeline th, #timeline td {
   margin: 0px auto;
   margin-bottom: 150px;
@@ -104,17 +114,14 @@ a:hover {
   border-collapse: collapse;
 }
 
-th {
-  color: #ded0ba;
-  background-color: #87302a;
-}
-
-.bio {
-  border: 5px solid transparent;
-}
-
 #timelinetext {
   text-align: center;
+}
+
+[class$="bio"] {
+  border: 5px solid transparent;
+  margin: 0px auto;
+  margin-bottom: 150px;
 }
 
 .portraitimg {
@@ -123,8 +130,4 @@ th {
 
 .rightimg {
   width: 300px;
-}
-
-img[alt="starry night"] {
-  width: 500px;
 }
