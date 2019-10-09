@@ -118,7 +118,7 @@ th {
   text-align: center;
 }
 
-[class$="bio"] {
+table[class$="bio"] {
   border: 5px solid transparent;
   margin: 0px auto;
   margin-bottom: 150px;
